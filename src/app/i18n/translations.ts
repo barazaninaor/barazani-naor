@@ -274,7 +274,7 @@ export const TRANSLATIONS = {
             {
               "label": "Project 4 - Transaction History",
               "value": "Full-Stack transaction management system. Developed with an Angular frontend, a Java (Spring Boot) backend, and a PostgreSQL database, fully deployed on the Render cloud platform.",
-              "link": { "url": "https://barazaninaor.github.io/transaction-history", "text": "View Transaction Hisotry project" }
+              "link": { "url": "https://barazaninaor.github.io/transaction-history", "text": "View Transaction History project" }
             },
             {
               label: "Tools & Technologies",
