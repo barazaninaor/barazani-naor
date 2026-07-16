@@ -117,6 +117,11 @@ export const TRANSLATIONS = {
             "link": { "url": "https://barazaninaor.github.io/sp500", "text": "לצפייה בפרויקט S&P 500 Tracker" }
             },
             {
+              "label": "פרויקט 4 - Transaction History",
+              "value": "מערכת Full-Stack לניהול היסטוריית עסקאות. פיתוח צד-לקוח ב-Angular, צד-שרת ב-Java (Spring Boot) ובסיס נתונים PostgreSQL, בפריסה מלאה על פלטפורמת Render.",
+              "link": { "url": "https://barazaninaor.github.io/transaction-history", "text": "צפייה בפרויקט Transaction History" }
+            },
+            {
               label: "כלים וטכנולוגיות",
               value: "JavaScript, React, Angular, Node.js, Python, Java, SQL & NoSQL Databases, Firebase, Git."
             }
@@ -267,9 +272,15 @@ export const TRANSLATIONS = {
               "link": { "url": "https://barazaninaor.github.io/sp500", "text": "View S&P 500 Tracker project" }
             },
             {
+              "label": "Project 4 - Transaction History",
+              "value": "Full-Stack transaction management system. Developed with an Angular frontend, a Java (Spring Boot) backend, and a PostgreSQL database, fully deployed on the Render cloud platform.",
+              "link": { "url": "https://barazaninaor.github.io/transaction-history", "text": "View Transaction Hisotry project" }
+            },
+            {
               label: "Tools & Technologies",
               value: "JavaScript (ES6+), React, Angular, Node.js, Python, Java, SQL & NoSQL Databases, Firebase, Git."
             }
+            
           ]
         },
         {
