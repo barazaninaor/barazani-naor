@@ -112,18 +112,28 @@ export const TRANSLATIONS = {
               link: { url: "https://barazaninaor.github.io/deep-analysis/#/", text: "לצפייה בפרויקט Deep Analysis" }
             },
             {
-            "label": "פרויקט 3 - S&P 500 Tracker",
-            "value": "מערכת Full-Stack לניהול והצגת נתוני שוק ההון. פיתוח צד-לקוח ב-Angular וצד-שרת ב-Python (מבוסס API של Yahoo Finance), עם בסיס נתונים MongoDB, בפריסה על פלטפורמת Render.",
-            "link": { "url": "https://barazaninaor.github.io/sp500", "text": "לצפייה בפרויקט S&P 500 Tracker" }
+              label: "פרויקט 3 - S&P 500 Tracker",
+              value: "מערכת Full-Stack לניהול והצגת נתוני שוק ההון. פיתוח צד-לקוח ב-Angular וצד-שרת ב-Python (מבוסס API של Yahoo Finance), עם בסיס נתונים MongoDB, בפריסה על פלטפורמת Render.",
+              link: { url: "https://barazaninaor.github.io/sp500", text: "לצפייה בפרויקט S&P 500 Tracker" }
             },
             {
-              "label": "פרויקט 4 - Transaction History",
-              "value": "מערכת Full-Stack לניהול היסטוריית עסקאות. פיתוח צד-לקוח ב-Angular, צד-שרת ב-Java (Spring Boot) ובסיס נתונים PostgreSQL, בפריסה מלאה על פלטפורמת Render.",
-              "link": { "url": "https://barazaninaor.github.io/transaction-history", "text": "צפייה בפרויקט Transaction History" }
+              label: "פרויקט 4 - Transaction History",
+              value: "מערכת Full-Stack לניהול היסטוריית עסקאות. פיתוח צד-לקוח ב-Angular, צד-שרת ב-Java (Spring Boot) ובסיס נתונים PostgreSQL, בפריסה מלאה על פלטפורמת Render.",
+              link: { url: "https://barazaninaor.github.io/transaction-history", text: "צפייה בפרויקט Transaction History" }
             },
             {
               label: "כלים וטכנולוגיות",
               value: "JavaScript, React, Angular, Node.js, Python, Java, SQL & NoSQL Databases, Firebase, Git."
+            }
+          ]
+        },
+        {
+          title: "ניהול תיקי השקעות, BDO",
+          date: "2020 - 2022",
+          bullets: [
+            {
+              label: "ניהול תיקי השקעות",
+              value: "מעבר כלל בחינות ההסמכה המקצועיות של הרשות לניירות ערך במסלול לניהול תיקי השקעות."
             }
           ]
         },
@@ -267,20 +277,29 @@ export const TRANSLATIONS = {
               link: { url: "https://barazaninaor.github.io/deep-analysis/#/", text: "View Deep Analysis Project" }
             },
             {
-              "label": "Project 3 - S&P 500 Tracker",
-              "value": "Full-Stack market data dashboard. Developed with an Angular frontend and a Python backend (integrated with Yahoo Finance API), utilizing a MongoDB database and fully deployed on the Render cloud platform.",
-              "link": { "url": "https://barazaninaor.github.io/sp500", "text": "View S&P 500 Tracker project" }
+              label: "Project 3 - S&P 500 Tracker",
+              value: "Full-Stack market data dashboard. Developed with an Angular frontend and a Python backend (integrated with Yahoo Finance API), utilizing a MongoDB database and fully deployed on the Render cloud platform.",
+              link: { url: "https://barazaninaor.github.io/sp500", text: "View S&P 500 Tracker project" }
             },
             {
-              "label": "Project 4 - Transaction History",
-              "value": "Full-Stack transaction management system. Developed with an Angular frontend, a Java (Spring Boot) backend, and a PostgreSQL database, fully deployed on the Render cloud platform.",
-              "link": { "url": "https://barazaninaor.github.io/transaction-history", "text": "View Transaction History project" }
+              label: "Project 4 - Transaction History",
+              value: "Full-Stack transaction management system. Developed with an Angular frontend, a Java (Spring Boot) backend, and a PostgreSQL database, fully deployed on the Render cloud platform.",
+              link: { url: "https://barazaninaor.github.io/transaction-history", text: "View Transaction History project" }
             },
             {
               label: "Tools & Technologies",
               value: "JavaScript (ES6+), React, Angular, Node.js, Python, Java, SQL & NoSQL Databases, Firebase, Git."
             }
-            
+          ]
+        },
+        {
+          title: "Investment Portfolio Management, BDO Academy",
+          date: "2020 - 2022",
+          bullets: [
+            {
+              label: "Portfolio Management",
+              value: "Successfully passed all Israel Securities Authority (ISA) professional certification exams."
+            }
           ]
         },
         {
@@ -361,6 +380,3 @@ export const TRANSLATIONS = {
     }
   }
 };
-  
-
-

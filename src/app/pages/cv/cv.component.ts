@@ -1,7 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LanguageService } from '../../services/language.service';
-import { TRANSLATIONS } from '../../i18n/translations';
 
 @Component({
   selector: 'app-cv',
@@ -13,5 +12,8 @@ import { TRANSLATIONS } from '../../i18n/translations';
 export class CvComponent {
   public langService = inject(LanguageService);
   
-  public translations = TRANSLATIONS;
+  // מחזיר את התרגומים ישירות דרך השירות בהתאם לשפה הנוכחית
+  get t() {
+    return this.langService.getTranslation('cv');
+  }
 }

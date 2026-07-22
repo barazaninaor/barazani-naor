@@ -31,7 +31,7 @@ export class LanguageService {
   }
 
   getTranslation(page: keyof typeof TRANSLATIONS) {
-    return TRANSLATIONS[page][this.lang()];
+    return (TRANSLATIONS[page] as Record<string, any>)[this.lang()];
   }
 
   toggle() {

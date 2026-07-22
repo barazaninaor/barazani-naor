@@ -21,63 +21,52 @@
     <div class="fade-in-page">
       <header class="cv-header">
         <h1 class="main-page-title">
-          {{ translations.cv[langService.lang()].name }}
+          {{ t.name }}
         </h1>
 
-        <p class="tagline">{{ translations.cv[langService.lang()].tagline }}</p>
+        <p class="tagline">{{ t.tagline }}</p>
 
         <div class="contact-info">
-          <span>{{ translations.cv[langService.lang()].contact.phone }}</span>
+          <span>{{ t.contact.phone }}</span>
 
           <span class="sep">|</span>
 
-          <span>{{ translations.cv[langService.lang()].contact.email }}</span>
+          <span>{{ t.contact.email }}</span>
 
           <span class="sep">|</span>
 
-          <strong class="location-text">{{
-            translations.cv[langService.lang()].location
-          }}</strong>
+          <strong class="location-text">{{ t.location }}</strong>
 
           <span class="sep">|</span>
 
-          <a
-            [href]="translations.cv[langService.lang()].contact.linkedin.url"
-            target="_blank"
-          >
-            {{ translations.cv[langService.lang()].contact.linkedin.text }}
+          <a [href]="t.contact.linkedin.url" target="_blank">
+            {{ t.contact.linkedin.text }}
           </a>
 
           <span class="sep">|</span>
 
-          <a
-            [href]="translations.cv[langService.lang()].contact.github.url"
-            target="_blank"
-          >
-            {{ translations.cv[langService.lang()].contact.github.text }}
+          <a [href]="t.contact.github.url" target="_blank">
+            {{ t.contact.github.text }}
           </a>
         </div>
       </header>
 
       <section class="cv-section profile-section">
         <h2 class="section-title">
-          {{ translations.cv[langService.lang()].profileTitle }}
+          {{ t.profileTitle }}
         </h2>
 
         <p class="profile-desc">
-          {{ translations.cv[langService.lang()].profileDesc }}
+          {{ t.profileDesc }}
         </p>
       </section>
 
       <section class="cv-section experience-section">
         <h2 class="section-title">
-          {{ translations.cv[langService.lang()].expTitle }}
+          {{ t.expTitle }}
         </h2>
 
-        @for (
-          job of translations.cv[langService.lang()].experience;
-          track job.title
-        ) {
+        @for (job of t.experience; track job.title) {
           <div class="cv-item">
             <div class="item-header">
               <h3 class="item-title">{{ job.title }}</h3>
@@ -108,13 +97,10 @@
 
       <section class="cv-section education-section">
         <h2 class="section-title">
-          {{ translations.cv[langService.lang()].eduTitle }}
+          {{ t.eduTitle }}
         </h2>
 
-        @for (
-          edu of translations.cv[langService.lang()].education;
-          track edu.title
-        ) {
+        @for (edu of t.education; track edu.title) {
           <div class="cv-item">
             <div class="item-header">
               <h3 class="item-title">{{ edu.title }}</h3>
@@ -145,13 +131,10 @@
 
       <section class="cv-section military-section">
         <h2 class="section-title">
-          {{ translations.cv[langService.lang()].milTitle }}
+          {{ t.milTitle }}
         </h2>
 
-        @for (
-          mil of translations.cv[langService.lang()].military;
-          track mil.title
-        ) {
+        @for (mil of t.military; track mil.title) {
           <div class="cv-item">
             <div class="item-header">
               <h3 class="item-title">{{ mil.title }}</h3>
@@ -176,14 +159,11 @@
 
       <section class="cv-section skills-section">
         <h2 class="section-title">
-          {{ translations.cv[langService.lang()].skillsTitle }}
+          {{ t.skillsTitle }}
         </h2>
 
         <div class="skills-grid">
-          @for (
-            skill of translations.cv[langService.lang()].skills;
-            track skill.label
-          ) {
+          @for (skill of t.skills; track skill.label) {
             <div class="skill-card">
               <strong class="skill-label">{{ skill.label }}</strong>
 
