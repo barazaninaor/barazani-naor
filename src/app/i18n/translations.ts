@@ -122,6 +122,11 @@ export const TRANSLATIONS = {
               link: { url: "https://barazaninaor.github.io/transaction-history", text: "צפייה בפרויקט Transaction History" }
             },
             {
+              label: "פרויקט 5 - WeighTrack",
+              value: "מערכת Full-Stack לניהול היסטוריית עסקאות. פיתוח צד-לקוח ב-Angular, צד-שרת ב-Java (Spring Boot) ובסיס נתונים PostgreSQL, בפריסה מלאה על פלטפורמת Render.",
+              link: { url: "https://barazaninaor.github.io/weightrack", text: "צפייה בפרויקט WeighTrack" }
+            },
+            {
               label: "כלים וטכנולוגיות",
               value: "JavaScript, React, Angular, Node.js, Python, Java, SQL & NoSQL Databases, Firebase, Git."
             }
@@ -285,6 +290,11 @@ export const TRANSLATIONS = {
               label: "Project 4 - Transaction History",
               value: "Full-Stack transaction management system. Developed with an Angular frontend, a Java (Spring Boot) backend, and a PostgreSQL database, fully deployed on the Render cloud platform.",
               link: { url: "https://barazaninaor.github.io/transaction-history", text: "View Transaction History project" }
+            },
+            {
+              label: "Project 5 - WeighTrack",
+              value: "A full-stack personal weight tracking and management system. Frontend developed in JavaScript, Node.js-based backend, utilizing a Firebase database and Git version control, fully deployed on the GitHub Pages platform.",
+              link: { url: "https://barazaninaor.github.io/weightrack", text: "View WeighTrack Project" }
             },
             {
               label: "Tools & Technologies",
