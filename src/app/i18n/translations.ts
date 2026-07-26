@@ -123,7 +123,7 @@ export const TRANSLATIONS = {
             },
             {
               label: "פרויקט 5 - WeighTrack",
-              value: "מערכת Full-Stack לניהול היסטוריית עסקאות. פיתוח צד-לקוח ב-Angular, צד-שרת ב-Java (Spring Boot) ובסיס נתונים PostgreSQL, בפריסה מלאה על פלטפורמת Render.",
+              value: "מערכת Full-Stack לניהול ומעקב משקל אישי. פיתוח צד-לקוח ב-JavaScript, צד-שרת מבוסס Node.js, עם בסיס נתונים Firebase וניהול גרסאות ב-Git, בפריסה מלאה על פלטפורמת GitHub Pages.",
               link: { url: "https://barazaninaor.github.io/weightrack", text: "צפייה בפרויקט WeighTrack" }
             },
             {
