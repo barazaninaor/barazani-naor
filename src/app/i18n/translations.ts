@@ -90,7 +90,25 @@ export const TRANSLATIONS = {
               value: "ניהול תיק השקעות פעיל והצגת עדכונים חודשיים מבוססי דאטה להמחשת עקרונות הקורס וביצועי השוק."
             }
           ]
-        }
+        },
+        {
+          title: "Account Manager בחברת ייעוץ השקעות, אקסקליבר",
+          date: "2021 - 2023",
+          bullets: [
+            {
+              label: "אוטומציה ופיתוח אקסל (VBA)",
+              value: "עבודה מתקדמת עם אקסל, כולל כתיבה והטמעת קוד VBA לשיפור וייעול משמעותי של דוחות החברה."
+            },
+            {
+              label: "חדשנות תפעולית וחיסכון בעלויות",
+              value: "יצירת חיסכון תפעולי באמצעות שיפור טכנולוגי שהביא להפחתה משמעותית בצורך בהדפסות."
+            },
+            {
+              label: "ניהול קשרי לקוחות ותיקי השקעות",
+              value: "טיפול שוטף בלקוחות עתירי נכסים, כולל פגישות חודשיות והכנת דוחות פיננסיים."
+            }
+          ]
+        },
       ],
       education: [
         {
@@ -260,7 +278,25 @@ export const TRANSLATIONS = {
               value: "Managed an active investment portfolio and presented monthly data-driven updates."
             }
           ]
-        }
+        },
+        {
+          title: "Account Manager at Investment Consulting Firm, Excalibur",
+          date: "2021 - 2023",
+          bullets: [
+            {
+              label: "Excel Automation and Development (VBA)",
+              value: "Advanced work with Excel, including writing and implementing VBA code to significantly improve and streamline company reports."
+            },
+            {
+              label: "Operational Innovation and Cost Reduction",
+              value: "Generated operational savings through technological enhancements that significantly reduced the need for printing."
+            },
+            {
+              label: "Client Relationship and Investment Portfolio Management",
+              value: "Ongoing management of high-net-worth clients, including monthly meetings and preparation of financial reports."
+            }
+          ]
+        },
       ],
       education: [
         {
