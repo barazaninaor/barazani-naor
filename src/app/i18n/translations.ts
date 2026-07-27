@@ -280,7 +280,7 @@ export const TRANSLATIONS = {
           ]
         },
         {
-          title: "Account Manager at Investment Consulting Firm, Excalibur",
+          title: "Account Manager at Investment Consulting Firm, Excaliber",
           date: "2021 - 2023",
           bullets: [
             {
